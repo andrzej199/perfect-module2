@@ -20,9 +20,10 @@ def add(a, b):
     :param b: Digit as integer or float
     :return:  A sum of two digit
     """
-    return a+ b
+    return a + b
 
-if __name__ = '__main__':
+
+if __name__ == '__main__':
     try:
         add(float(sys.argv[1]), float(sys.argv[2]))
     except Exceptions as error:
